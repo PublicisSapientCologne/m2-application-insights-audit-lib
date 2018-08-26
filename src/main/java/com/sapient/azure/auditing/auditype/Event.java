@@ -1,24 +1,24 @@
-package com.sapient.dpdhl.gaq.auditing.model;
+package com.sapient.azure.auditing.auditype;
+
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
 import java.io.Serializable;
 import java.time.Instant;
 import java.util.Map;
 import java.util.TreeMap;
 
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
-
 /**
  * Generic event that may contain any kind of key/value pairs
  *
  * @author Christian Robert
  */
-
-public class AuditEvent implements Serializable {
+public class Event implements Serializable {
 
     static final long serialVersionUID = 1L;
 
     private String name = null;
+    private String operationId = null;
     private Instant timestamp = Instant.now();
     private Map<String, String> properties = new TreeMap<>();
     private Map<String, Double> metrics = new TreeMap<>();
@@ -33,6 +33,13 @@ public class AuditEvent implements Serializable {
     }
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getOperationId() {
+        return this.operationId;
+    }
+    public void setOperationId(String operationId) {
+        this.operationId = operationId;
     }
 
     public Instant getTimestamp() {

@@ -4,13 +4,13 @@
 
     <groupId>com.sapient.azure</groupId>
     <artifactId>auditing</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <scm>
         <connection>scm:git:git://github.com/PublicisSapientCologne</connection>
         <developerConnection>scm:git:git@github.com/PublicisSapientCologne</developerConnection>
         <url>https://github.com/PublicisSapientCologne/</url>
-        <tag>HEAD</tag>
+        <tag>auditing-1.0</tag>
     </scm>
 
     <properties>

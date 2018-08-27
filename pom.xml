@@ -4,13 +4,13 @@
 
     <groupId>com.sapient.azure</groupId>
     <artifactId>auditing</artifactId>
-    <version>1.1-SNAPSHOT</version>
+    <version>1.1</version>
 
     <scm>
         <connection>scm:git:git://github.com/PublicisSapientCologne/m2-application-insights-audit-lib.git</connection>
         <developerConnection>scm:git:git@github.com/PublicisSapientCologne/m2-application-insights-audit-lib.git</developerConnection>
         <url>https://github.com/PublicisSapientCologne/</url>
-        <tag>HEAD</tag>
+        <tag>auditing-1.1</tag>
     </scm>
 
     <properties>

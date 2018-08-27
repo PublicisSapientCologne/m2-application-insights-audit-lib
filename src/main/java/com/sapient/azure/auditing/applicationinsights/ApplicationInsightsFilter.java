@@ -8,7 +8,6 @@ import java.io.IOException;
 
 /**
  * Filter to catch all incoming HTTP calls to be logged by the {@link com.sapient.azure.auditing.AuditService}
- *
  */
 class ApplicationInsightsFilter implements Filter {
 

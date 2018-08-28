@@ -4,7 +4,7 @@
 
     <groupId>com.sapient.azure</groupId>
     <artifactId>auditing</artifactId>
-    <version>1.3-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <name>Spring Boot Azure Application Insights Audit Lib</name>
     <description>Project to enable Azures Application Insights framework in a Spring Boot application</description>
